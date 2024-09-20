@@ -4,17 +4,16 @@ import { Link } from 'react-router-dom';
 
 
 //import css
-import '../css/reset.css';
-//import '../css/ex02.css';
 
-const Ex02 = () => {
+
+const Ex03 = () => {
     
     const lastMovie = "2023년 영화 [서울의 봄]";
 
 
     return (
         <>
-            <h1>정우성 프로필</h1>
+            <h1>정우성 프로필aaa</h1>
             <br/>
             
             <h2>최근작품</h2>
@@ -70,4 +69,4 @@ const Ex02 = () => {
     );
 }
 
-export default Ex02;
+export default Ex03;

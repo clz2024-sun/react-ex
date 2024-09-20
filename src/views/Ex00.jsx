@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const Ex00 = () => {
     
     let str = '';
@@ -21,7 +19,8 @@ const Ex00 = () => {
 
     return (
         <>
-         <p>안녕하세요</p>
+            <p>안녕하세요</p>
+            <p>안녕하세요</p>
         </>
     );
 }
