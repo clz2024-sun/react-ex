@@ -17,6 +17,8 @@ import Ex14 from './views/Ex14';
 import Ex15 from './views/Ex15';
 import Ex16 from './views/Ex16';
 import Ex17 from './views/Ex17';
+import Ex18 from './views/Ex18';
+import Ex19 from './views/Ex19';
 
 function App() {
   return (
@@ -40,7 +42,9 @@ function App() {
           <Route path='/ex14' element={<Ex14 />} />
           <Route path='/ex15' element={<Ex15 />} />
           <Route path='/ex16' element={<Ex16 />} />         
-          <Route path='/ex17' element={<Ex17 />} />     
+          <Route path='/ex17' element={<Ex17 />} />  
+          <Route path='/ex18' element={<Ex18 />} />  
+          <Route path='/ex19' element={<Ex19 />} />      
         </Routes>
       </BrowserRouter>
     </div>
